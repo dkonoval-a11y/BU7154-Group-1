@@ -1,0 +1,13 @@
+﻿Measure,Value
+Reporting months,48
+Population interpretation,Observed-cohort interval reconstruction
+Recorded first enrolments,11207
+Recorded final dropouts,9381
+Same-month entrants/exits,43
+December 2015 reconstructed stock,3298
+December 2018 reconstructed stock,3827
+December-to-December stock change,0.1604002425712554
+2018 versus 2015 first-enrolment change,-0.26948710518690233
+Repeated top-three enrolment months,"March, September, October"
+Dropout seasonality,Peaks differ across years
+Computational validation,All monthly checks pass
