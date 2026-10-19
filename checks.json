@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "source_rows": 14942,
+  "source_fields": 47,
+  "prepared_fields": 35,
+  "source_sha256": "d01bfa6688bed674616e369499370a86c12214c1a1c638323b873341f7a349bc",
+  "reporting_period": [
+    "2015-01-01",
+    "2018-12-31"
+  ],
+  "observation_cutoff": "2019-10-31",
+  "tables_exported": 28,
+  "database": {
+    "tables": {
+      "Member": 14942,
+      "Membership": 14942,
+      "MembershipStatus": 14942,
+      "Activity": 16372
+    },
+    "foreign_key_violations": 0,
+    "integrity_check": "ok",
+    "member_summary_rows": 14942,
+    "historical_payments_total": 4520879.48
+  }
+}
