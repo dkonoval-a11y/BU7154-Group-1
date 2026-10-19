@@ -1,0 +1,36 @@
+﻿Check,AffectedRecords,Severity,Result
+Missing customer IDs,0,ERROR,PASS
+Duplicate customer IDs,0,ERROR,PASS
+Missing or invalid EnrollmentStart,0,ERROR,PASS
+Missing or invalid EnrollmentFinish,0,ERROR,PASS
+Missing essential dates or status,0,ERROR,PASS
+Invalid Dropout coding,0,ERROR,PASS
+Finish precedes start,0,ERROR,PASS
+Dates beyond source cutoff,0,ERROR,PASS
+Uncensored records not at cutoff,0,ERROR,PASS
+Censoring within reporting period,0,ERROR,PASS
+Invalid renewal counts,0,ERROR,PASS
+Invalid activity indicators,0,ERROR,PASS
+Activity count disagrees with flags,0,ERROR,PASS
+Input records,14942,INFO,INFO
+Censored input records,2974,INFO,INFO
+Renewed at least once,8839,INFO,INFO
+Source records,14942,INFO,INFO
+Age zero,19,INFO,INFO
+Missing or nonnumeric age,0,INFO,INFO
+"Negative, above-100 or noninteger age",0,INFO,INFO
+Negative estimated entry age among otherwise valid ages,0,INFO,INFO
+Total unusable/unknown ages,19,INFO,INFO
+Unusable ages observed in reporting period,7,INFO,INFO
+Usable reporting customers outside the two proposed groups,4920,INFO,INFO
+Primary selected reporting customers sensitive to an age boundary,497,INFO,INFO
+All first entrants 2015-2018,11207,INFO,INFO
+Unusable ages among first entrants 2015-2018,7,INFO,INFO
+Other usable entry ages outside A and B,4183,INFO,INFO
+Selected entrants,7017,INFO,INFO
+Selected age-boundary sensitive entrants,400,INFO,INFO
+Selected entrants without potential 180-day follow-up,0,INFO,INFO
+Final window starts before enrolment,1,REVIEW,REVIEW
+Final window ends after enrolment,468,REVIEW,REVIEW
+Final window longer than 62 days,478,REVIEW,REVIEW
+Stored ratio differs from uncapped actual/allowed by over 0.1 pp,48,REVIEW,REVIEW
